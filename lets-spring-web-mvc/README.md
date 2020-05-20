@@ -114,6 +114,8 @@ mvn jetty:run
 - WebConfig.java 取代 spring-servlet.xml
 - WebApplicationInitializer.java 取代 web.xml
 
+[Spring MVC 解放xml配置](..\lets-spring-web-mvc-java-config\README.md)
+
 
 ## 参考
 - [configuring-jetty-container](https://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html#configuring-jetty-container)

@@ -7,6 +7,7 @@
         <module>lets-java-test</module>
         <module>lets-spring-beans</module>
         <module>lets-spring-web-mvc</module>
+        <module>lets-spring-web-mvc-java-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
