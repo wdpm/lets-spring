@@ -8,6 +8,7 @@
         <module>lets-spring-beans</module>
         <module>lets-spring-web-mvc</module>
         <module>lets-spring-web-mvc-java-config</module>
+        <module>lets-spring-jdbc-template</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -36,6 +37,9 @@
         <maven-jetty-plugin.version>9.4.7.v20170914</maven-jetty-plugin.version>
         <jackson.version>2.11.0</jackson.version>
         <org.json.version>20190722</org.json.version>
+
+        <lombok.version>1.18.12</lombok.version>
+        <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
     </properties>
 
     <build>
