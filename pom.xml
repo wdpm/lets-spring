@@ -11,6 +11,7 @@
         <module>lets-spring-jdbc-template</module>
         <module>lets-spring-data-jpa</module>
         <module>lets-spring-cookie</module>
+        <module>lets-spring-export-and-upload-csv</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -42,6 +43,7 @@
 
         <lombok.version>1.18.12</lombok.version>
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
+        <opencsv.version>4.5</opencsv.version>
     </properties>
 
     <build>
