@@ -10,6 +10,7 @@ Some awesome examples to describe spring use cases.
 - [Spring Beans](\lets-spring-beans\README.md)
 - [Spring Web MVC by XML Config](\lets-spring-web-mvc\README.md)
 - [Spring Web MVC by Java Config](\lets-spring-web-mvc-java-config\README.md)
+- [Spring Cookie](\lets-spring-cookie\src\main\java\io\github\wdpm\controller\CookieController.java)
 
 ### Spring Data Persistence
 - [Spring JDBC Template](\lets-spring-jdbc-template/README.md)

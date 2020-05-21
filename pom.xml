@@ -10,6 +10,7 @@
         <module>lets-spring-web-mvc-java-config</module>
         <module>lets-spring-jdbc-template</module>
         <module>lets-spring-data-jpa</module>
+        <module>lets-spring-cookie</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
