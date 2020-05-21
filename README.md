@@ -12,3 +12,8 @@ Some awesome examples to describe spring use cases.
 - [Spring Web MVC by Java Config](\lets-spring-web-mvc-java-config\README.md)
 
 ### Spring Data Persistence
+- [Spring JDBC Template](\lets-spring-jdbc-template/README.md)
+- [Spring Data JPA One to One](\lets-spring-data-jpa\src\main\java\io\github\wdpm\one2one)
+- [Spring Data JPA One to Many](\lets-spring-data-jpa\src\main\java\io\github\wdpm\one2many)
+- [Spring Data JPA Many to Many](\lets-spring-data-jpa\src\main\java\io\github\wdpm\many2many)
+- [Spring Data JPA Composite Key](\lets-spring-data-jpa\src\main\java\io\github\wdpm\compositekey)

@@ -10,7 +10,7 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password:
-    schema: classpath:IScream.sql
+    schema: classpath:IScream-schema.sql
     data:
     initialization-mode: always
   jpa:
@@ -28,4 +28,21 @@ H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
 
 ![](images\h2-console.png)
 
+数据库设计
+
+![](images\IScream_schema.png)
+
+## 代码示例
+Spring Boot支持H2，一种内存的关系数据库引擎，自动创建连接。App类实现了CommandLineRunner，将在加载应用程序上下文后执行run()方法。
+
 [代码示例](\src\main\java\io\github\wdpm\App.java)
+
+## 小结
+- jdbc 比原生prepareStatement写法更简便。提供了许多工具方法，同时又完全保留原生SQL查询的灵活性。
+```
+jdbcTemplate.execute("SQL");//执行SQL
+jdbcTemplate.batchUpdate("SQL", someEntityLists);//批量更新数据
+jdbcTemplate.query("SQL")//查询
+```
+- jdbc不依赖JPA注解POJO来持久化Java对象。
+- 一对多关系，先插入主表，获取新增id，根据此id完成后续的外键约束，更新从表。

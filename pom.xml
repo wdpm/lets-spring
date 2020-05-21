@@ -9,6 +9,7 @@
         <module>lets-spring-web-mvc</module>
         <module>lets-spring-web-mvc-java-config</module>
         <module>lets-spring-jdbc-template</module>
+        <module>lets-spring-data-jpa</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

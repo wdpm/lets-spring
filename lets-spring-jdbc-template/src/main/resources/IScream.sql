@@ -1,6 +1,6 @@
 CREATE TABLE `ingredient`
 (
-    `id`              integer        NOT NULL,
+    `id`              integer        NOT NULL auto_increment,
     `ingredient`      varchar(100)   NULL,
     `ingredient_type` varchar(50)    NOT NULL,
     `unit_price`      decimal(19, 4) NULL,
@@ -38,12 +38,12 @@ insert into `ingredient_type`
 values ('ICE_CREAM');
 insert into `ingredient_type`
 values ('TOPPING');
-insert into `ingredient`
-values (1, 'ICE_CREAM_1', 'ICE_CREAM', 2.50);
-insert into `ingredient`
-values (2, 'ICE_CREAM_2', 'ICE_CREAM', 1.50);
-insert into `ingredient`
-values (3, 'TOPPING_1', 'TOPPING', 2.00);
-insert into `ingredient`
-values (4, 'TOPPING_2', 'TOPPING', 4.50);
+insert into `ingredient`(`ingredient`, `ingredient_type`, `unit_price`)
+values ('ICE_CREAM_1', 'ICE_CREAM', 2.50);
+insert into `ingredient`(`ingredient`, `ingredient_type`, `unit_price`)
+values ('ICE_CREAM_2', 'ICE_CREAM', 1.50);
+insert into `ingredient`(`ingredient`, `ingredient_type`, `unit_price`)
+values ('TOPPING_1', 'TOPPING', 2.00);
+insert into `ingredient`(`ingredient`, `ingredient_type`, `unit_price`)
+values ('TOPPING_2', 'TOPPING', 4.50);
 

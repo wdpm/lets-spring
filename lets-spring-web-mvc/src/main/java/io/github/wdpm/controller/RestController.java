@@ -4,6 +4,8 @@ import org.json.JSONObject;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
+ * 因为Jackson 2在 classpath 上，自动选择MappingJackson2HttpMessageConverter转换JSON
+ *
  * @author evan
  * @date 2020/5/20
  */
