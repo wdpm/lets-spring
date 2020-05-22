@@ -13,6 +13,7 @@
         <module>lets-spring-cookie</module>
         <module>lets-spring-export-and-upload-csv</module>
         <module>lets-spring-rest-template</module>
+        <module>lets-spring-upload-file</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
