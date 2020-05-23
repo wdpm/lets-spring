@@ -15,6 +15,7 @@
         <module>lets-spring-rest-template</module>
         <module>lets-spring-upload-file</module>
         <module>lets-spring-data-jpa-projection</module>
+        <module>lets-spring-data-jpa-pagination</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
