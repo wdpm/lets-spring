@@ -1,4 +1,4 @@
-# JPA Projections
+# JPA Projection
 
 Aim to create projections based on certain attributes of those types.
 

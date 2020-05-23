@@ -21,6 +21,7 @@ Some awesome examples to describe spring or spring boot use cases.
 - [Spring Data JPA Many to Many](\lets-spring-data-jpa\src\main\java\io\github\wdpm\many2many)
 - [Spring Data JPA Composite Key](\lets-spring-data-jpa\src\main\java\io\github\wdpm\compositekey)
 - [Spring Data JPA Query](lets-spring-data-jpa-query\README.md)
+- [Spring Data JPA Projection](\lets-spring-data-jpa-projection\Projection.md)
 - Spring Data JPA Sort
 - Spring Data JPA Pagination
 - Spring Data JPA Auditing
