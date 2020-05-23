@@ -1,10 +1,10 @@
 package io.github.wdpm;
 
 import io.github.wdpm.custom.domain.Note;
-import io.github.wdpm.custom.repositorie.NoteRepository;
-import io.github.wdpm.derived.repositorie.UserRepository;
+import io.github.wdpm.custom.repository.NoteRepository;
+import io.github.wdpm.derived.repository.UserRepository;
 import io.github.wdpm.named.domain.Book;
-import io.github.wdpm.named.repositorie.BookRepository;
+import io.github.wdpm.named.repository.BookRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

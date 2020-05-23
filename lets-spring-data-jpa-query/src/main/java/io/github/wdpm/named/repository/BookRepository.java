@@ -1,4 +1,4 @@
-package io.github.wdpm.named.repositorie;
+package io.github.wdpm.named.repository;
 
 import io.github.wdpm.named.domain.Book;
 import org.springframework.data.jpa.repository.Query;

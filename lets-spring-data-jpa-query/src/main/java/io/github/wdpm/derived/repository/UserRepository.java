@@ -1,4 +1,4 @@
-package io.github.wdpm.derived.repositorie;
+package io.github.wdpm.derived.repository;
 
 import io.github.wdpm.derived.domain.User;
 import org.springframework.data.domain.Page;

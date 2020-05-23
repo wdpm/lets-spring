@@ -1,4 +1,4 @@
-package io.github.wdpm.custom.repositorie;
+package io.github.wdpm.custom.repository;
 
 import io.github.wdpm.custom.domain.Note;
 import org.springframework.data.domain.Page;
