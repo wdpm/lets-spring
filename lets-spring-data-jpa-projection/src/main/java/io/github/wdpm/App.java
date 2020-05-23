@@ -1,6 +1,7 @@
 package io.github.wdpm;
 
 import io.github.wdpm.dto.CustomerDetails;
+import io.github.wdpm.dto.CustomerDetailsTransformer;
 import org.hibernate.query.NativeQuery;
 import org.hibernate.transform.Transformers;
 import org.springframework.boot.CommandLineRunner;
@@ -41,14 +42,25 @@ public class App {
                          "            FROM CUSTOMER cust LEFT JOIN CUSTOMER_ORDER corder\n" +
                          "                 ON corder.CUSTOMER_ID = cust.ID";
 
-            // testEntityManagerNativeQuery(sql);
+            testEntityManagerNativeQuery(sql);
 
             // testEntityManagerToMapList(sql);
 
             // testEntityManagerToBean();
 
-            // todo use custom result transformer
+            // testEntityManagerCustomTransform();
         };
+    }
+
+    private void testEntityManagerCustomTransform() {
+        // very important: put quotation marks for the column alias like: "id"
+        String sql = "select cust.id as \"id\" from Customer cust";
+        List<CustomerDetails> list = em
+                .createNativeQuery(sql)
+                .unwrap(NativeQuery.class)
+                .setResultTransformer(new CustomerDetailsTransformer())
+                .list();
+        list.forEach(customerDetails -> System.out.println(customerDetails.getId()));
     }
 
     private void testEntityManagerToBean() {
@@ -56,7 +68,7 @@ public class App {
         String sql = "select cust.id as \"id\" from Customer cust";
         List<CustomerDetails> list = em
                 .createNativeQuery(sql)
-                .unwrap(org.hibernate.query.NativeQuery.class)
+                .unwrap(NativeQuery.class)
                 .setResultTransformer(Transformers.aliasToBean(CustomerDetails.class))
                 .list();
         list.forEach(customerDetails -> System.out.println(customerDetails.getId()));
