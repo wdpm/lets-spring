@@ -28,7 +28,7 @@
             <version>${spring-boot.version}</version>
         </dependency>
 
-        <!--for spring datasource config yml-->
+        <!--for spring datasource io.github.wdpm.config yml-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>

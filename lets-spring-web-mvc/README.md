@@ -114,7 +114,7 @@ mvn jetty:run
 - WebConfig.java 取代 spring-servlet.xml
 - WebApplicationInitializer.java 取代 web.xml
 
-[Spring MVC 解放xml配置](..\lets-spring-web-mvc-java-config\README.md)
+[Spring MVC 解放xml配置](..\lets-spring-web-mvc-java-io.github.wdpm.config\README.md)
 
 
 ## 参考

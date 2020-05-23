@@ -7,7 +7,7 @@
         <module>lets-java-test</module>
         <module>lets-spring-beans</module>
         <module>lets-spring-web-mvc</module>
-        <module>lets-spring-web-mvc-java-config</module>
+        <module>lets-spring-web-mvc-java-io.github.wdpm.config</module>
         <module>lets-spring-jdbc-template</module>
         <module>lets-spring-data-jpa</module>
         <module>lets-spring-cookie</module>
@@ -17,6 +17,8 @@
         <module>lets-spring-data-jpa-projection</module>
         <module>lets-spring-data-jpa-pagination</module>
         <module>lets-spring-data-jpa-sort</module>
+        <module>lets-spring-data-jpa-specification</module>
+        <module>lets-spring-data-jpa-auditing</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -14,7 +14,7 @@ List<Person> findByAddressZipCode(ZipCode zipCode);
   - 在Person中查找是否有 addressZip 属性，有的话，则执行后续逻辑。
   - 如果没有 addressZip 属性，将拆分点左移，划分出 Address 和 ZipCode，查找Person中是否有 address，等等。
 
-> - [派生的方法名查询策略 Reference Docs](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#repositories.query-methods.query-property-expressions)
+> - [派生的方法名查询策略 Reference Docs](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#io.github.wdpm.repositories.query-methods.query-property-expressions)
 > - [Supported keywords inside method names](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#jpa.query-methods.query-creation)
 > - Appendix C: Repository query keywords
 
