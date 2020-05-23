@@ -23,7 +23,7 @@ Some awesome examples to describe spring or spring boot use cases.
 - [Spring Data JPA Query](lets-spring-data-jpa-query\README.md)
 - [Spring Data JPA Projection](\lets-spring-data-jpa-projection\README.md)
 - [Spring Data JPA Pagination](lets-spring-data-jpa-pagination)
-- Spring Data JPA Sort
+- [Spring Data JPA Sort]()
 - Spring Data JPA Auditing
 
 ## Spring Utilities

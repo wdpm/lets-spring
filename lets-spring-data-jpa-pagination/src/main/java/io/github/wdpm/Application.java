@@ -1,7 +1,7 @@
 package io.github.wdpm;
 
 import io.github.wdpm.domain.Person;
-import io.github.wdpm.repositorie.PersonRepository;
+import io.github.wdpm.repository.PersonRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

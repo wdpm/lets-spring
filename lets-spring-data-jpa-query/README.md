@@ -18,10 +18,6 @@ List<Person> findByAddressZipCode(ZipCode zipCode);
 > - [Supported keywords inside method names](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#jpa.query-methods.query-creation)
 > - Appendix C: Repository query keywords
 
-## Page vs Slice
-- Page: 了解元素总数和页面的总数。
-- Slice: 仅了解下一个切片是否可用，当遍历较大的结果集时比较高效。
-
 ## 表连接查询
 - 如果返回结果类似 `List<Book>` 或者 `Book`，只需要修改SQL以及参数定义。
 - 如果返回结果为每个匹配行具有多个实体，

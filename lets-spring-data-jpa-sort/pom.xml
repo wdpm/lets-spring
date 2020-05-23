@@ -9,10 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lets-spring-data-jpa-pagination</artifactId>
+    <artifactId>lets-spring-data-jpa-sort</artifactId>
 
     <dependencies>
-
         <!-- Spring dependencies-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -29,10 +28,5 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
-
     </dependencies>
-
-    <build>
-
-    </build>
 </project>
