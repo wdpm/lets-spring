@@ -1,11 +1,10 @@
-# JPA Named Queries
+# JPA Query
 
 - Create derived queries by referencing the name of the method.
 - Use the `@Query` annotation to declare JPQL and native SQL queries.
 - [Named Queries](.\NamingQueries.md)
 
 ## JPA 派生的方法名查询策略
-[参考](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#repositories.query-methods.query-property-expressions)
 ```java
 List<Person> findByAddressZipCode(ZipCode zipCode);
 ```
@@ -15,13 +14,13 @@ List<Person> findByAddressZipCode(ZipCode zipCode);
   - 在Person中查找是否有 addressZip 属性，有的话，则执行后续逻辑。
   - 如果没有 addressZip 属性，将拆分点左移，划分出 Address 和 ZipCode，查找Person中是否有 address，等等。
 
+> - [派生的方法名查询策略 Reference Docs](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#repositories.query-methods.query-property-expressions)
+> - [Supported keywords inside method names](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#jpa.query-methods.query-creation)
+> - Appendix C: Repository query keywords
+
 ## Page vs Slice
 - Page: 了解元素总数和页面的总数。
 - Slice: 仅了解下一个切片是否可用，当遍历较大的结果集时比较高效。
-
-## Query Creation
-- [Supported keywords inside method names](https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#jpa.query-methods.query-creation)
-
 
 ## 表连接查询
 - 如果返回结果类似 `List<Book>` 或者 `Book`，只需要修改SQL以及参数定义。

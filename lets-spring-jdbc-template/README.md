@@ -45,4 +45,5 @@ jdbcTemplate.batchUpdate("SQL", someEntityLists);//批量更新数据
 jdbcTemplate.query("SQL")//查询
 ```
 - jdbc不依赖JPA注解POJO来持久化Java对象。
-- 一对多关系，先插入主表，获取新增id，根据此id完成后续的外键约束，更新从表。
+- 多表插入，先插入主表，获取新增id，根据此id完成后续的外键约束，更新从表。
+- 多表查询，
