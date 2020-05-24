@@ -21,6 +21,7 @@
         <module>lets-spring-data-jpa-auditing</module>
         <module>lets-spring-thymeleaf-form</module>
         <module>lets-spring-thymeleaf-layout</module>
+        <module>lets-spring-oauth</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -54,6 +55,7 @@
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
         <opencsv.version>4.5</opencsv.version>
         <thymeleaf-layout-dialect.version>2.4.1</thymeleaf-layout-dialect.version>
+        <spring-webflux.version>5.2.2.RELEASE</spring-webflux.version>
     </properties>
 
     <build>
