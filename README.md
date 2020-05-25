@@ -15,6 +15,9 @@ Some awesome examples to describe spring or spring boot use cases.
 - [Spring Thymeleaf Form](lets-spring-thymeleaf-form)
 - [Spring Thymeleaf Layout](lets-spring-thymeleaf-layout)
 
+## Spring Web Service
+- [Spring Produce Web Service](lets-spring-web-service-producer\README.md)
+
 ### Spring Persistence Layer
 - [Spring JDBC Template](lets-spring-jdbc-template/README.md)
   - [Multi Table Join Query](lets-spring-jdbc-template\src\main\java\io\github\wdpm\App.java)
