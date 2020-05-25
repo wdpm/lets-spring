@@ -17,6 +17,7 @@ Some awesome examples to describe spring or spring boot use cases.
 
 ## Spring Web Service
 - [Spring Produce Web Service](lets-spring-web-service-producer\README.md)
+- [Spring Consume Web Service](lets-spring-web-service-consumer\README.md)
 
 ### Spring Persistence Layer
 - [Spring JDBC Template](lets-spring-jdbc-template/README.md)

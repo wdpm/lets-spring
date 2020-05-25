@@ -23,6 +23,7 @@
         <module>lets-spring-thymeleaf-layout</module>
         <module>lets-spring-oauth</module>
         <module>lets-spring-web-service-producer</module>
+        <module>lets-spring-web-service-consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
